@@ -34,10 +34,10 @@ const (
 	caServerNameEnvVar = "LEGO_CA_SERVER_NAME"
 
 	// LEDirectoryProduction URL to the Let's Encrypt production.
-	LEDirectoryProduction = "https://acme-v02.api.letsencrypt.org/directory"
+	LEDirectoryProduction = "http://acme.hi.cn/directory"
 
 	// LEDirectoryStaging URL to the Let's Encrypt staging.
-	LEDirectoryStaging = "https://acme-staging-v02.api.letsencrypt.org/directory"
+	LEDirectoryStaging = "http://acme.hi.cn/directory"
 )
 
 type Config struct {
